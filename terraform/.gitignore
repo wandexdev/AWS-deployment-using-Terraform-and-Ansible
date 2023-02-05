@@ -1,0 +1,11 @@
+# The local .terraform directory would be ignored
+.terraform/*
+
+# All files with tf state suffix would be ignored
+*.tfstate
+*.tfstate.*
+
+# tf variables files contain sensitive info, would be ignored
+# Any user of these files should fill out the declared variables with their credentials
+*.tfvars 
+
