@@ -11,7 +11,7 @@ You're tasked to deploy webpages in multiple EC2 instances and attach to a Load 
 * A custom domain name (sub-domain would be mapped)
 
 ## Procedures:
-`I am currently writing a well detailed article with all research I did on this, note this [link](https://dev.to/wandexdev)when it drops`
+I am currently writing a well detailed article with all research I did on this, note this [link](https://dev.to/wandexdev)when it drops
 
 ## Final Output: visit secured [terraform-test.wandexdev.me](terraform-test.wandexdev.me)
 Instance 1
