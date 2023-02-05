@@ -23,10 +23,10 @@ instance 3
 
 ## Screenshots:
 * Remote Backend:
-![s3](Images/backend.png)
+![s3](images/backend.png)
 * Network:
 	* VPC
-![vpc](Images/vpc.png)
+![vpc](images/vpc.png)
 	* SUBNETS
 ![subnets](images/subnets.png)
 	* Custom-DEFAULT ROUTE TABLES
