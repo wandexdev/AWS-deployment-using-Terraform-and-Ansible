@@ -13,6 +13,14 @@ You're tasked to deploy webpages in multiple EC2 instances and attach to a Load 
 ## Procedures:
 `I am currently writing a well detailed article with all research I did on this, note this [link](https://dev.to/wandexdev)when it drops`
 
+## Final Output: visit secured [terraform-test.wandexdev.me](terraform-test.wandexdev.me)
+Instance 1
+![i1](images/i1.png)
+Instance 2
+![i2](images/i2.png)
+instance 3
+![i3](images/i3.png)
+
 ## Screenshots:
 * Network:
 	* VPC
@@ -34,10 +42,3 @@ You're tasked to deploy webpages in multiple EC2 instances and attach to a Load 
 	* APPLICATION LOAD BALANCERS (ALB)
 ![ALB](images/alb.png)
 
-## Final Output: visit secured [terraform-test.wandexdev.me](terraform-test.wandexdev.me)
-Instance 1
-![i1](images/i1.png)
-Instance 2
-![i2](images/i2.png)
-instance 3
-![i3](images/i3.png)
