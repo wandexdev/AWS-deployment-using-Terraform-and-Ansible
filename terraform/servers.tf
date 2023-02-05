@@ -62,7 +62,7 @@ resource "aws_instance" "wandeminiproject" {
 
 resource "null_resource" "ansible-playbook" {
   provisioner "local-exec" {
-    command = "ansible-playbook -i host-inventory --private-key=/home/wandexdev/.ssh/id_rsa playbook.yml"
+    command = "ansible-playbook -i host-inventory --private-key=${file(var.local_private_key_location)} playbook.yml"
   }
 
   depends_on = [aws_instance.wandeminiproject]
